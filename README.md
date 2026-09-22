@@ -84,7 +84,7 @@ This project is intended to be a functional calculator rather than a general-pur
 - Develop firmware for keypad scanning and calculator logic
 - Validate the display graphics and UI flow on the physical hardware
 
-## Suggested Firmware Direction
+## Firmware Direction
 
 The firmware can be implemented with:
 
@@ -93,11 +93,3 @@ The firmware can be implemented with:
 - Basic arithmetic state machine for calculator operation
 - Keyboard debounce handling
 - Result and expression rendering on screen
-
-## Important Notes
-
-This is a custom hardware and embedded software project. The current focus is on the electronics design, and the next milestone is completing the PCB so it can be manufactured and tested.
-
-## License
-
-This project is currently a personal electronics design project. Add a license file if you plan to publish or share the schematics and firmware more broadly.

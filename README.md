@@ -43,6 +43,8 @@ The design combines a tactile keypad matrix, a high-visibility graphics display,
 - GPIO and pin allocation for the external interfaces
 - Basic project structure in the workspace
 
+<img width="1214" height="544" alt="Screenshot 2026-09-21 230605" src="https://github.com/user-attachments/assets/2c9fdb86-0f33-4455-9b36-1b5eef0ae5ce" />
+
 ### In progress
 - PCB layout and routing in KiCad
 - Mechanical placement of the display, buttons, and enclosure fit
@@ -84,7 +86,7 @@ This project is intended to be a functional calculator rather than a general-pur
 - Develop firmware for keypad scanning and calculator logic
 - Validate the display graphics and UI flow on the physical hardware
 
-## Suggested Firmware Direction
+## Firmware Direction
 
 The firmware can be implemented with:
 
@@ -93,11 +95,3 @@ The firmware can be implemented with:
 - Basic arithmetic state machine for calculator operation
 - Keyboard debounce handling
 - Result and expression rendering on screen
-
-## Important Notes
-
-This is a custom hardware and embedded software project. The current focus is on the electronics design, and the next milestone is completing the PCB so it can be manufactured and tested.
-
-## License
-
-This project is currently a personal electronics design project. Add a license file if you plan to publish or share the schematics and firmware more broadly.

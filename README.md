@@ -43,6 +43,8 @@ The design combines a tactile keypad matrix, a high-visibility graphics display,
 - GPIO and pin allocation for the external interfaces
 - Basic project structure in the workspace
 
+<img width="1214" height="544" alt="Screenshot 2026-09-21 230605" src="https://github.com/user-attachments/assets/2c9fdb86-0f33-4455-9b36-1b5eef0ae5ce" />
+
 ### In progress
 - PCB layout and routing in KiCad
 - Mechanical placement of the display, buttons, and enclosure fit

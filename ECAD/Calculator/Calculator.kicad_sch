@@ -1415,6 +1415,54 @@
 		(color 0 0 0 0)
 		(uuid "fe8c103e-8e03-4e69-b343-8dd48f8fed7c")
 	)
+	(no_connect
+		(at 80.01 31.75)
+		(uuid "1dce43d4-fd9b-4d23-9555-740337682e0d")
+	)
+	(no_connect
+		(at 53.34 44.45)
+		(uuid "283ff307-845e-44bd-89d1-ceceba3f5c9e")
+	)
+	(no_connect
+		(at 80.01 62.23)
+		(uuid "4971d1f6-bb45-467a-9b5d-f37e9da4b00d")
+	)
+	(no_connect
+		(at 80.01 29.21)
+		(uuid "5b129bbd-bcee-458d-9e12-9798467f79b9")
+	)
+	(no_connect
+		(at 53.34 62.23)
+		(uuid "73dfdfcc-27c9-4484-ba08-b12db297ce50")
+	)
+	(no_connect
+		(at 53.34 57.15)
+		(uuid "7e6c23d5-8de6-4c1f-941f-6ff695de1539")
+	)
+	(no_connect
+		(at 53.34 54.61)
+		(uuid "8c3449eb-ba44-421b-b5af-14f1622661d3")
+	)
+	(no_connect
+		(at 80.01 64.77)
+		(uuid "a3a61096-7245-4322-a51e-47adfe4b0975")
+	)
+	(no_connect
+		(at 80.01 57.15)
+		(uuid "aa0b196b-4f23-4f65-ba08-931f8ec8c8e3")
+	)
+	(no_connect
+		(at 80.01 59.69)
+		(uuid "bfb245b6-c70b-4744-a51a-f91fc5487f57")
+	)
+	(no_connect
+		(at 53.34 59.69)
+		(uuid "d0910702-f12e-4638-abbf-983b98241141")
+	)
+	(no_connect
+		(at 53.34 34.29)
+		(uuid "f7bcab2d-ce17-4e3b-a89a-40148d223a5e")
+	)
 	(wire
 		(pts
 			(xy 80.01 36.83) (xy 82.55 36.83)
@@ -2777,7 +2825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 175.26 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2863,7 +2911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2949,7 +2997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3035,7 +3083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Calculator_lib:Solder_pad"
 			(at 25.4 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3112,7 +3160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Calculator_lib:Solder_pad"
 			(at 25.4 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -3189,7 +3237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Calculator_lib:Solder_pad"
 			(at 25.4 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -3266,7 +3314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Calculator_lib:Solder_pad"
 			(at 25.4 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3343,7 +3391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3429,7 +3477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Calculator_lib:Solder_pad"
 			(at 25.4 12.7 0)
 			(hide yes)
 			(show_name no)
@@ -3506,7 +3554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 106.68 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3592,7 +3640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3678,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 152.4 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3764,7 +3812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3850,7 +3898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 175.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3936,7 +3984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 152.4 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4022,7 +4070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 152.4 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4108,7 +4156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 175.26 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4194,7 +4242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_30pin"
+		(property "Footprint" "ESP32_Footprints:ESP32_30pin"
 			(at 66.675 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4358,7 +4406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 106.68 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4444,7 +4492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Calculator_lib:Solder_pad"
 			(at 25.4 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4521,7 +4569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Calculator_lib:Solder_pad"
 			(at 25.4 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -4598,7 +4646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 106.68 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4684,7 +4732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Calculator_lib:Solder_pad"
 			(at 25.4 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4761,7 +4809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 152.4 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4847,7 +4895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4933,7 +4981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Calculator_lib:Solder_pad"
 			(at 25.4 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -5010,7 +5058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 106.68 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5096,7 +5144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 152.4 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5182,7 +5230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 175.26 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5268,7 +5316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:Button_ESwitch_TL3315NF100Q_4.5x4.5mm"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)

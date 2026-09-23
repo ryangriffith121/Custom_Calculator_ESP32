@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "46acaba3-0433-4373-bbd3-5de5a27bae78")
+		(uuid "374699b8-edb1-400a-89fe-7d152859d30d")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f54f3abe-1574-4a1c-bec5-bb35e86cb8a8")
+		(uuid "555828f8-76cf-40eb-8346-a02e09f06a44")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a9a4898-923a-4354-baa8-603566157fb4")
+		(uuid "f203475c-676a-448e-b4eb-976e3ae3c9f5")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8542b7d5-3741-49d5-9ea7-811ee04826e8")
+		(uuid "8b0268c5-8ccc-4571-86d7-ec6934689bc4")
 		(effects
 			(font
 				(size 1 1)
@@ -67,6 +67,18 @@
 		(fill yes)
 		(layer "F.Cu")
 		(uuid "2a6f879e-2816-4eaa-8fc0-827ddc93dccd")
+	)
+	(fp_rect
+		(start -5.25 -2)
+		(end 5.25 2)
+		(radius 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "a9d70474-74cd-4415-92bf-2c23e21886b3")
 	)
 	(zone
 		(layer "F.SilkS")
@@ -94,7 +106,7 @@
 		)
 		(polygon
 			(pts
-				(xy -5.750038 -2.49987) (xy 5.75 -2.5) (xy 5.719118 2.569861) (xy -5.75 2.5)
+				(xy -5.750038 -2.499924) (xy 5.75 -2.500054) (xy 5.719118 2.569807) (xy -5.75 2.499946)
 			)
 		)
 	)

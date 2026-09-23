@@ -87,6 +87,252 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint "Calculator_lib:Solder_pad"
+		(layer "F.Cu")
+		(uuid "12eeb1c8-b6b8-408c-9043-6b0f7f613501")
+		(at 41.5 78 90)
+		(property "Reference" "TP5"
+			(at 0 -0.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e3db3e5d-8e67-4516-801a-a5aa3800ba75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 -3.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "74f52f86-7579-467c-877d-731160fba25e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c201271c-18d2-493f-9f4b-b853dbda4ac6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a9dd77d-963e-4916-853d-378847768d36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/c3933d2f-3d53-4f01-8672-b38d45f02f77")
+		(sheetname "/")
+		(sheetfile "Calculator.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "0f5b96c9-592b-4adb-93c1-45941ca8c375")
+		)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "73d1390a-7aab-4a9f-a8c0-39c0ae62ead5")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "fa381b22-b545-4674-99cf-60757aec9245")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 39.000076 83.750038) (xy 38.999946 72.25) (xy 44.069807 72.280882) (xy 43.999946 83.75)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Calculator_lib:Solder_pad"
+		(layer "F.Cu")
+		(uuid "16ce1312-dcbf-4a1b-9635-a1b838c8a1f8")
+		(at 38 91 90)
+		(property "Reference" "TP2"
+			(at 0 -0.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2173d9c4-4868-476e-936f-7061230f25b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 -3.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2ea417a0-89ad-46c6-9535-2b7ba25d4fbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9c91482-46ba-4914-a01f-ab5f770d41fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fff2c5a4-6938-40a5-9a65-9a8eb5efa7de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/26a84cce-6cca-4828-8346-647b13f859f1")
+		(sheetname "/")
+		(sheetfile "Calculator.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "2658f688-15a3-4b7e-b547-818f60c8d754")
+		)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "db1a6c87-24e2-496f-9b14-7821ddaa02f2")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "e81d0471-8f30-4778-868b-d822de520641")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 35.500076 96.750038) (xy 35.499946 85.25) (xy 40.569807 85.280882) (xy 40.499946 96.75)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "ESP32_Footprints:ESP32_30pin"
 		(layer "F.Cu")
 		(uuid "1b501e41-f220-494d-84ec-589fb6043831")
@@ -1003,13 +1249,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "291da06b-68bb-4367-aa90-02bb2dc3acb9")
-		(at 123.5 66 90)
+		(at 84.5 46.5 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW11"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "b46343d7-bc2a-4b3f-837f-6f22ab1eecf0")
+			(uuid "ce83e009-ff09-4173-bf1e-e1ebad37f03e")
 			(effects
 				(font
 					(size 1 1)
@@ -1020,7 +1266,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "7c4827a7-297a-45db-b595-e0fd998cf7b8")
+			(uuid "76baf0ce-03eb-44a3-95c0-1e192f6ae8e6")
 			(effects
 				(font
 					(size 1 1)
@@ -1033,7 +1279,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "807b3ff7-00c4-49a0-ba5a-9142a355db91")
+			(uuid "24408c08-d05b-4e19-8df1-ad11506fe028")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1292,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e63707cf-f542-4861-a873-54cb63095a3b")
+			(uuid "94891e6a-aa1f-44b6-a415-e39cdecb3088")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,14 +1539,14 @@
 	)
 	(footprint "Calculator_lib:Solder_pad"
 		(layer "F.Cu")
-		(uuid "34ff1df5-786c-482b-9546-df3b7843b883")
-		(at 31.5 91 90)
-		(property "Reference" "TP9"
+		(uuid "3dbbbaff-2f0e-436e-be66-b87a8591a3df")
+		(at 48 78 90)
+		(property "Reference" "TP8"
 			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "337ce199-fc1e-4005-9882-bf1d5c13fc4a")
+			(uuid "044842f8-d561-42ea-a95f-369e1921098a")
 			(effects
 				(font
 					(size 1 1)
@@ -1309,10 +1555,10 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -3 90)
+			(at 0 -3.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "75733f0c-ae78-4d36-be61-103dc932444c")
+			(uuid "3aaab79c-1496-4f06-89d8-fd4763fe53ab")
 			(effects
 				(font
 					(size 1 1)
@@ -1325,7 +1571,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "61feae1b-ea59-4b3d-a36e-56150586b3bd")
+			(uuid "8b052fab-674a-4e8d-8655-cec2b41243d6")
 			(effects
 				(font
 					(size 1 1)
@@ -1338,7 +1584,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29b17df0-08aa-45b0-9d6c-c256cdc56251")
+			(uuid "43e5f72e-bc15-49af-b40b-04c8eb07f6df")
 			(effects
 				(font
 					(size 1 1)
@@ -1347,7 +1593,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/38ea0fd8-fe6f-46aa-9c90-e8012444fb3e")
+		(path "/241bc87e-e989-4f96-8fc5-8d7949aa358b")
 		(sheetname "/")
 		(sheetfile "Calculator.kicad_sch")
 		(units
@@ -1368,11 +1614,23 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "a91e2cb7-37d6-46a5-8c90-0c40556cc37d")
+			(uuid "aa0a1ab2-2267-4ee6-ad99-e22fcc028e54")
+		)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "5fc0a9ac-165b-4b0d-85d6-507d3b22d23c")
 		)
 		(zone
 			(layer "F.SilkS")
-			(uuid "2fbc30a7-8778-4a6a-831e-5e6c84e88a5a")
+			(uuid "9195823d-8a9e-4ffa-923d-8686a24d567b")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -1396,7 +1654,130 @@
 			)
 			(polygon
 				(pts
-					(xy 29.00013 96.750038) (xy 29 85.25) (xy 34.069861 85.280882) (xy 34 96.75)
+					(xy 45.500076 83.750038) (xy 45.499946 72.25) (xy 50.569807 72.280882) (xy 50.499946 83.75)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Calculator_lib:Solder_pad"
+		(layer "F.Cu")
+		(uuid "403b8a58-f6c6-4252-aaaa-fa79d3a3104b")
+		(at 44.5 91 90)
+		(property "Reference" "TP3"
+			(at 0 -0.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "11d38b03-faff-4c1f-a387-6fd5a68810a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 -3.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "78acef08-604c-4b36-b257-766d3673ce41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebfa8017-9155-4424-8926-a1a61fdb34f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3be88c2-33b0-49aa-b502-083b01db5c0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/ea1f70cd-e3af-472e-a9f9-e9399740d80d")
+		(sheetname "/")
+		(sheetfile "Calculator.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "470315a6-ef5d-448f-a4c5-ef8b357df34d")
+		)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "09aa5922-7bcf-48cb-a3e3-71295f7cd526")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "ec8d57ec-9cd0-4e5a-9692-f03e3d08680e")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 42.000076 96.750038) (xy 41.999946 85.25) (xy 47.069807 85.280882) (xy 46.999946 96.75)
 				)
 			)
 		)
@@ -1405,13 +1786,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "497e4c14-cb83-4bed-86e7-afd1361a6e3f")
-		(at 162.5 85.5 90)
+		(at 162.5 27 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW20"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "101ec176-980a-4bd4-9876-7e8b692470ba")
+			(uuid "09235d6d-278a-4818-bb0d-eea60e216c03")
 			(effects
 				(font
 					(size 1 1)
@@ -1422,7 +1803,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "b4e95004-d970-4d69-a54d-bb0339ef48b1")
+			(uuid "571ae661-9d4b-44b3-92d5-0b1c7804bd7a")
 			(effects
 				(font
 					(size 1 1)
@@ -1435,7 +1816,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "822eb532-c322-4c68-a1c0-13086731f549")
+			(uuid "4fae6673-6c85-4027-83ee-081491173405")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1829,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0762cf13-f699-4a5d-a051-a1b880c7a272")
+			(uuid "c5b73d86-655c-4bc0-9e9c-49c2810f0466")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,238 +2074,16 @@
 			)
 		)
 	)
-	(footprint "Calculator_lib:Solder_pad"
-		(layer "F.Cu")
-		(uuid "53d750bb-ad5f-45c0-8834-45609187f1fe")
-		(at 44.5 91 90)
-		(property "Reference" "TP4"
-			(at 0 -0.5 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0b081b44-eaa9-4736-a924-0b42d5dfca2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 -3 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "48460769-7d8a-49cd-bbcd-2672f365c068")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d37eea6f-c4d3-4ec0-89ed-9d57e2db8388")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b8f481f-6c59-426c-9949-51d6616594d7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/af2e591d-95c5-4731-a480-874bd64c07d4")
-		(sheetname "/")
-		(sheetfile "Calculator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -5.25 -2)
-			(end 5.25 2)
-			(radius 1)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Cu")
-			(uuid "115aa301-cbc6-456f-b842-89f0a195079b")
-		)
-		(zone
-			(layer "F.SilkS")
-			(uuid "4d3fed58-8e18-4f6c-81e2-ed82f6eff4aa")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 42.00013 96.750038) (xy 42 85.25) (xy 47.069861 85.280882) (xy 47 96.75)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Calculator_lib:Solder_pad"
-		(layer "F.Cu")
-		(uuid "59d1c45d-a5bc-4b7f-9f6f-d93c2587520f")
-		(at 41.5 78 90)
-		(property "Reference" "TP3"
-			(at 0 -0.5 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c2085f71-7934-41ac-b01b-16d5b778e521")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 -3 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "df8a8824-4c5e-47f2-9681-b952282862c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f2fa7581-0b77-4511-9721-3ebc4a5c25b9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f756571e-6574-46b6-9abd-532a27fb8053")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/ea1f70cd-e3af-472e-a9f9-e9399740d80d")
-		(sheetname "/")
-		(sheetfile "Calculator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -5.25 -2)
-			(end 5.25 2)
-			(radius 1)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Cu")
-			(uuid "9bae09d6-2af3-4dce-93af-446ea84f1e07")
-		)
-		(zone
-			(layer "F.SilkS")
-			(uuid "bf58e93c-1d1b-4a8a-863c-c2b493b55c6c")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 39.00013 83.750038) (xy 39 72.25) (xy 44.069861 72.280882) (xy 44 83.75)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "5db9d6f0-33a3-48a9-a25a-be64f9d4c148")
-		(at 123.5 85.5 90)
+		(at 104 46.5 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW12"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "b9108fe1-bb0c-4b7d-9e2b-a7181c4627be")
+			(uuid "8b677130-28ee-4694-9fcc-fb5a0248c705")
 			(effects
 				(font
 					(size 1 1)
@@ -1935,7 +2094,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "67c0315a-496c-4c02-a2cb-341da941bf81")
+			(uuid "a4c4a679-1f62-4ce6-b506-c71ac432645f")
 			(effects
 				(font
 					(size 1 1)
@@ -1948,7 +2107,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e50fb383-0c8d-4c9e-9fed-71ce92709335")
+			(uuid "1c5b52e8-a10a-4b78-8e46-fc28741b3dbc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2120,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "36192e2c-4e23-4ca2-9b1b-921e926fd26b")
+			(uuid "93c8a6d0-9a21-433e-aa0f-29e7bd502e98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,16 +2365,139 @@
 			)
 		)
 	)
+	(footprint "Calculator_lib:Solder_pad"
+		(layer "F.Cu")
+		(uuid "65eeeb2b-4f95-4926-b629-4ad9ae0f8e3f")
+		(at 51 91 90)
+		(property "Reference" "TP6"
+			(at 0 -0.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3cf93f03-fb0b-4a60-9605-428789a1d1d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 -3.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "42a70d14-80a3-4726-b44a-72df755bfd8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "526e19cd-753f-41b4-b0f1-554e9ae004b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dc936aa-3aad-435c-8146-720ffa0d28a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/37322a2d-8840-46a1-984c-c11b838e3f95")
+		(sheetname "/")
+		(sheetfile "Calculator.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "538d3a23-5c7c-419e-92bc-8f69633eb844")
+		)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "96876c9e-cc91-4d98-87c2-dc0411014da2")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "038ed617-eb3d-47ae-ba72-bd7e85376cd0")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 48.500076 96.750038) (xy 48.499946 85.25) (xy 53.569807 85.280882) (xy 53.499946 96.75)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "67c49e22-21b5-46d1-a22c-0435554bf5ad")
-		(at 123.5 46.5 90)
+		(at 162.5 66 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW10"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "53359df6-0f02-47d4-b3b4-c18ce7028777")
+			(uuid "776dda58-3350-46d5-b5e5-dedf5f724aac")
 			(effects
 				(font
 					(size 1 1)
@@ -2226,7 +2508,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "06de40e7-39e9-428b-87e9-f2c3158d8827")
+			(uuid "0652716c-6161-4388-a789-2df7e65e430b")
 			(effects
 				(font
 					(size 1 1)
@@ -2239,7 +2521,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4741453c-8a14-4770-901d-6c8c387310a1")
+			(uuid "238a68dc-9a7f-4762-9142-11feedc50491")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2534,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2e535ea-054f-4bf5-80e1-3c3e89f56fb5")
+			(uuid "99390cda-6f8a-463f-a6c9-9d226ab39be0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,13 +2782,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "6b3451d6-f36b-4c38-9481-c5c8903277ea")
-		(at 104 85.5 90)
+		(at 123.5 66 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW8"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "beab59e0-4d7d-423c-842d-3877304a0718")
+			(uuid "df7b1a51-0041-4a54-bc94-83672c286aa8")
 			(effects
 				(font
 					(size 1 1)
@@ -2517,7 +2799,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "0c61e267-cad5-4773-b26c-46705e06e8dd")
+			(uuid "f9ba3013-f71f-48e4-945b-cbe370bd45ff")
 			(effects
 				(font
 					(size 1 1)
@@ -2530,7 +2812,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b70c894c-9203-4f7a-9d8c-e18a3408d787")
+			(uuid "317bd2b6-7c3f-411b-be81-e19c277d30f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2825,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55992d25-19ff-4e97-88bc-0299f25104e4")
+			(uuid "c5513031-e12e-4043-ad9b-80a5e81f40f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,13 +3073,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "6e2b64f6-f03d-4d7b-ac7a-e5216e43ecae")
-		(at 162.5 66 90)
+		(at 143 27 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW19"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "f879418a-a54d-4e4f-b35c-fcd4d8d45d2f")
+			(uuid "65df0a85-5426-4d8f-8b55-cf403470a4e5")
 			(effects
 				(font
 					(size 1 1)
@@ -2808,7 +3090,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "5e8106fc-8662-46b2-b19c-a2817cf692bc")
+			(uuid "4a78c5b5-817f-46d4-9b6b-3bc04e361546")
 			(effects
 				(font
 					(size 1 1)
@@ -2821,7 +3103,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "886ccc30-3cae-4002-987c-926a063098e6")
+			(uuid "d237397b-61fd-4c69-9b3a-db5c1f8849d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +3116,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50e16179-ff02-4502-bacc-b56ab7d67bee")
+			(uuid "56de6ca9-09b3-48c7-a989-a17a2aabc162")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,16 +3361,139 @@
 			)
 		)
 	)
+	(footprint "Calculator_lib:Solder_pad"
+		(layer "F.Cu")
+		(uuid "7151478c-b4c5-40c7-8b16-8924ce689cf3")
+		(at 54.5 78 90)
+		(property "Reference" "TP9"
+			(at 0 -0.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a66b894d-630d-42bf-9cb2-6c1b46e26d0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 -3.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e17f2959-0b9b-45aa-90a0-f677946deb98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05c5ad61-618e-4629-8154-f085a6783034")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "719fdef0-65d5-4fbd-9b9c-4f3eee0ce81f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/38ea0fd8-fe6f-46aa-9c90-e8012444fb3e")
+		(sheetname "/")
+		(sheetfile "Calculator.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "b01783f2-3ee4-4f61-8ef7-2cfb1fddceb6")
+		)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "f41896a8-590e-4051-9175-4671e266c172")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "700c7464-356c-41d3-b5f0-d762113a9e60")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 52.000076 83.750038) (xy 51.999946 72.25) (xy 57.069807 72.280882) (xy 56.999946 83.75)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "7534199f-b7e2-49e1-b5a0-6c19f65aa1e3")
-		(at 123.5 27 90)
+		(at 143 66 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW9"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "24e860d7-0221-4d47-9190-fc670598e900")
+			(uuid "bdc07c5b-5b96-4e4e-97be-590fefc0eb45")
 			(effects
 				(font
 					(size 1 1)
@@ -3099,7 +3504,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "98877582-6c5e-4a79-a32b-b4865be09244")
+			(uuid "cefb99dd-a1ff-4587-a170-d98ce3379887")
 			(effects
 				(font
 					(size 1 1)
@@ -3112,7 +3517,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "752a7bdd-e2d3-458e-ad5b-480286b20e75")
+			(uuid "b505215e-f4ca-4ae0-a477-1a4696c0e293")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +3530,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c659339-1ae1-4877-b4ee-9da2bcf10a1d")
+			(uuid "e9d146f0-1f55-476f-9879-7bd26db80802")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,127 +3775,16 @@
 			)
 		)
 	)
-	(footprint "Calculator_lib:Solder_pad"
-		(layer "F.Cu")
-		(uuid "7738e4f5-a8c5-476e-9337-e475982d8a0b")
-		(at 57.5 90.870014 90)
-		(property "Reference" "TP8"
-			(at 0 -0.5 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "cc03929b-453a-41fd-903d-aebd1a33d5c6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 -3 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "12bc2948-d93f-432a-a1d6-351c5fb2d38c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f44ef83-76b7-47ab-8fd2-9a5598bbb3b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a6863ef-bd13-4255-aa03-c5377c899ca8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/241bc87e-e989-4f96-8fc5-8d7949aa358b")
-		(sheetname "/")
-		(sheetfile "Calculator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -5.25 -2)
-			(end 5.25 2)
-			(radius 1)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Cu")
-			(uuid "65dadd98-834c-42bb-a527-a0e7e160a4dd")
-		)
-		(zone
-			(layer "F.SilkS")
-			(uuid "779c8f0e-2186-4303-8a1c-43cdb3fe9bc5")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 55.00013 96.620052) (xy 55 85.120014) (xy 60.069861 85.150896) (xy 60 96.620014)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "81da9644-9003-43e7-acce-33a2517ab014")
-		(at 84.5 46.5 90)
+		(at 104 85.5 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW2"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "e95426f3-a38a-4271-8613-36b9da4372b0")
+			(uuid "bec1969b-4162-4eb8-8aef-966be38e7859")
 			(effects
 				(font
 					(size 1 1)
@@ -3501,7 +3795,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "f77828b0-cb1c-4c04-8169-974515b07ccb")
+			(uuid "409ad31e-f556-4d2b-a1bd-340c8c2b08ac")
 			(effects
 				(font
 					(size 1 1)
@@ -3514,7 +3808,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf45696c-3364-4d2a-940a-4ee472185dbc")
+			(uuid "63f36536-8368-45a9-9eaa-a84ec995c08a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3821,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba713169-422b-46db-8a31-f7cf4332723d")
+			(uuid "a779b285-0dc8-456e-9b5f-0dd19f67a987")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,13 +4069,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "8b2b3c1b-84c7-494c-8d19-3746bdf90029")
-		(at 143 85.5 90)
+		(at 84.5 27 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW16"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "b956839f-97ae-4cda-ba52-330add80dead")
+			(uuid "0b89e19f-aa8e-4404-8aaf-a530699f3024")
 			(effects
 				(font
 					(size 1 1)
@@ -3792,7 +4086,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "8ad95fe9-09cb-44ed-9a54-db012c720fde")
+			(uuid "7bb0c988-2be4-4067-974e-c5d76fb24fb4")
 			(effects
 				(font
 					(size 1 1)
@@ -3805,7 +4099,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad6547b4-1419-4b40-b02e-3bdd86de8d5a")
+			(uuid "eea50655-96a4-436e-ae91-7d64b83770b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +4112,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc0444e8-a588-40b6-a727-25be2c135ebb")
+			(uuid "a9ac4b0b-2997-4c1c-9cd0-482afdbf727c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,238 +4357,16 @@
 			)
 		)
 	)
-	(footprint "Calculator_lib:Solder_pad"
-		(layer "F.Cu")
-		(uuid "999dbb91-1998-41f6-927d-d3d8b8607a4b")
-		(at 35 78 90)
-		(property "Reference" "TP1"
-			(at 0 -0.5 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0e9c98b4-d68f-489f-aa70-cda09dbdf80a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 -3 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "ce896339-4d08-40f0-b02e-965c054c505e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e3805da9-339c-487b-aec4-d774de557bef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "096b13c2-75bc-4299-96f4-84da25fb8a70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/3cfd5cad-8b11-4f90-b4d7-cb1741dcde90")
-		(sheetname "/")
-		(sheetfile "Calculator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -5.25 -2)
-			(end 5.25 2)
-			(radius 1)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Cu")
-			(uuid "9b566deb-823b-466f-a951-2a1ed13cd213")
-		)
-		(zone
-			(layer "F.SilkS")
-			(uuid "15a471ed-3d85-472f-bf97-d35696a995e8")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 32.50013 83.750038) (xy 32.5 72.25) (xy 37.569861 72.280882) (xy 37.5 83.75)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Calculator_lib:Solder_pad"
-		(layer "F.Cu")
-		(uuid "a66785f1-3dc9-4214-90af-266f0ff740aa")
-		(at 54.5 78 90)
-		(property "Reference" "TP7"
-			(at 0 -0.5 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6281258c-e12a-4588-9b5b-3b9681ff30c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 -3 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "ebfd3fa2-a9cd-4281-9121-71d21bd2a434")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "600dc027-0563-4494-997e-1aba15d82e90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "04e2b095-50e3-4fb9-ae6d-66720383b7a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/a00970fd-cf6b-4e91-afda-ee210beea6db")
-		(sheetname "/")
-		(sheetfile "Calculator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -5.25 -2)
-			(end 5.25 2)
-			(radius 1)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Cu")
-			(uuid "d9f86d35-7959-4cd7-9363-6804f9e7080d")
-		)
-		(zone
-			(layer "F.SilkS")
-			(uuid "e4550dce-13ad-4965-824c-caa2125198ce")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 52.00013 83.750038) (xy 52 72.25) (xy 57.069861 72.280882) (xy 57 83.75)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "aac36898-57bf-454e-9e67-1d88b2060c58")
-		(at 143 27 90)
+		(at 123.5 46.5 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW13"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "41e4ad7b-1fb8-4e93-8eec-907f57638b8a")
+			(uuid "41b46d61-9b27-4bff-bacd-96e6f6dcfaed")
 			(effects
 				(font
 					(size 1 1)
@@ -4305,7 +4377,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "5b68f4ce-202b-410d-a2b9-3125a94144f9")
+			(uuid "cfa1ec5b-9f4a-48a6-b6d9-953cdfa55e79")
 			(effects
 				(font
 					(size 1 1)
@@ -4318,7 +4390,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a816cd93-425d-42b7-9491-8c95d04fce36")
+			(uuid "1f7e880c-16b4-470b-b12f-2d71246fd3ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4403,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3c8cddc-f1c2-4cee-8e45-a85b037b3d35")
+			(uuid "a22b6bba-808f-4a51-b45a-4340189b51ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,13 +4651,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "ae92db50-b65b-4238-99f5-2a3c6084a951")
-		(at 162.5 46.5 90)
+		(at 123.5 27 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW18"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "ed6265e7-7144-4a0e-b5c7-8c1feb2dfc7d")
+			(uuid "38f3739f-51c5-41ac-b165-e568d1590f31")
 			(effects
 				(font
 					(size 1 1)
@@ -4596,7 +4668,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "312cb31f-9788-49cc-a548-102fcc4eb329")
+			(uuid "81a59de1-b2a4-41c6-b2a5-93599cacc9dc")
 			(effects
 				(font
 					(size 1 1)
@@ -4609,7 +4681,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "beccca21-bf79-46b6-96ee-9639bf8c023a")
+			(uuid "cd6a5644-7b63-4dde-a1cc-f2d133961d46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +4694,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2b708f0-c930-4955-85f9-ba5cd7048b17")
+			(uuid "1cb2a858-5d8e-41f9-bb3e-20a96c9c31a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,13 +4942,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "b7438454-661d-4790-a4ad-93aa30007722")
-		(at 104 27 90)
+		(at 162.5 85.5 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW5"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "b04c75a6-4606-4da5-9ef3-51c2e119724a")
+			(uuid "a9b2fcb1-3788-473f-a2f3-60e23022ef2b")
 			(effects
 				(font
 					(size 1 1)
@@ -4887,7 +4959,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "a3dff85e-4c33-4a7d-a1bf-37d5f28ddbbe")
+			(uuid "4ca18db1-4340-4b2f-b28a-4cd879781252")
 			(effects
 				(font
 					(size 1 1)
@@ -4900,7 +4972,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2144a5a4-d0d7-4683-8656-ba7abba932a8")
+			(uuid "81aadb03-d23d-4bfe-b722-bb202b012fd7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4985,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cfb80e44-147a-4865-af7e-70c094eea6b4")
+			(uuid "fac19fa9-32f2-4a4b-a247-0b0fc5089ab6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,13 +5233,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "ba0010ce-b7c3-490f-990f-6d3f987d01cc")
-		(at 104 46.5 90)
+		(at 84.5 66 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW6"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "55cbf947-a951-443a-ad85-b7dba279cd88")
+			(uuid "de780e0b-32cc-4463-b503-110b533e5d4f")
 			(effects
 				(font
 					(size 1 1)
@@ -5178,7 +5250,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "aaade8b5-e466-4c01-a894-b0c54c2907c5")
+			(uuid "5d9077fa-6d06-4ef4-a24f-4ec866f75435")
 			(effects
 				(font
 					(size 1 1)
@@ -5191,7 +5263,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dcff4ddc-3a54-4641-a2ca-816252450a7b")
+			(uuid "1237fca5-bc74-48df-acba-b69aa920212d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,7 +5276,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3838351e-7262-4a4b-9f33-fd40713fbdd6")
+			(uuid "5c590209-e743-47a9-957d-554b2588c97f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,13 +5524,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "baf22df4-aa6a-4acc-98e8-9247162b9729")
-		(at 143 66 90)
+		(at 162.5 46.5 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW15"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "204fbfb2-f206-47fd-a918-c58b63ccc1f0")
+			(uuid "9c736513-64fc-4657-b886-5093171aaef2")
 			(effects
 				(font
 					(size 1 1)
@@ -5469,7 +5541,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "3a30f51d-64cd-47b1-b6b3-ef7fad2e6a2f")
+			(uuid "d7323319-c36b-44b3-8b17-3474ba5ff3b1")
 			(effects
 				(font
 					(size 1 1)
@@ -5482,7 +5554,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "392db93c-2d8d-4271-87d6-c3d1d9e30419")
+			(uuid "00c0f5b8-bc2b-4789-905e-7e9dc57d4070")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5567,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e9434ee-b13e-47d5-9bf0-9fece432e069")
+			(uuid "8bdbf592-c5f2-452a-bfcc-6a88b40d946a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,13 +5815,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "bf3e4204-8c7d-4510-b656-67aecc19a9a3")
-		(at 84.5 85.5 90)
+		(at 143 85.5 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW4"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "af58d720-786c-4059-9dea-48e43d98f98c")
+			(uuid "886ecfc0-d696-408d-93a9-74a1177df7fa")
 			(effects
 				(font
 					(size 1 1)
@@ -5760,7 +5832,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "3fef6f80-cfbb-40af-a003-de76be1ed0a9")
+			(uuid "89e31f01-b4e9-4b29-89cb-559719f3c05b")
 			(effects
 				(font
 					(size 1 1)
@@ -5773,7 +5845,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2905d6f1-8901-498d-be97-9e8a2ef77667")
+			(uuid "90caf7b2-a383-4bae-892b-c7e502e5a294")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,7 +5858,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eeeff456-ce87-4748-a4f0-aa9423ded0c2")
+			(uuid "06f7e06c-7211-4931-905f-1530d361564b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,14 +6105,14 @@
 	)
 	(footprint "Calculator_lib:Solder_pad"
 		(layer "F.Cu")
-		(uuid "c52eb614-8c3a-4c23-bb31-ac8cc77373f6")
-		(at 38 91 90)
-		(property "Reference" "TP2"
+		(uuid "cf6a38b7-0645-46c5-818f-4eca149cae63")
+		(at 57.5 91 90)
+		(property "Reference" "TP7"
 			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "09b04604-a196-409e-981d-e5d82be37fcc")
+			(uuid "05c8d96e-f038-4623-816f-e5e75b63804e")
 			(effects
 				(font
 					(size 1 1)
@@ -6049,10 +6121,10 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -3.204861 90)
+			(at 0 -3.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "f017f6cf-7b32-415f-8c81-8789c7f52a13")
+			(uuid "486ec411-b735-4b54-af2a-2e8797d732e9")
 			(effects
 				(font
 					(size 1 1)
@@ -6065,7 +6137,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d7157991-3a75-4f98-b5bb-4c8212913007")
+			(uuid "d351afaf-c1ea-4f62-a15b-ab39ac447a7c")
 			(effects
 				(font
 					(size 1 1)
@@ -6078,7 +6150,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0e8b825-df79-4173-b0dd-b509b3b9cf5d")
+			(uuid "5f348bc0-91f3-4383-9359-7e98b07bdac1")
 			(effects
 				(font
 					(size 1 1)
@@ -6087,7 +6159,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/26a84cce-6cca-4828-8346-647b13f859f1")
+		(path "/a00970fd-cf6b-4e91-afda-ee210beea6db")
 		(sheetname "/")
 		(sheetfile "Calculator.kicad_sch")
 		(units
@@ -6108,11 +6180,23 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "847f5ae6-b836-4afb-a34f-ecea552239eb")
+			(uuid "b0f46512-47e5-4dcc-a0d2-076151e3b114")
+		)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "3b04c9dd-72ca-4d93-bd4e-031d952db7e9")
 		)
 		(zone
 			(layer "F.SilkS")
-			(uuid "c5a281c8-c7f7-46e8-943b-985e8b842b87")
+			(uuid "caceaa8b-b24c-43c4-a9c2-926a374047de")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -6136,7 +6220,7 @@
 			)
 			(polygon
 				(pts
-					(xy 35.50013 96.750038) (xy 35.5 85.25) (xy 40.569861 85.280882) (xy 40.5 96.75)
+					(xy 55.000076 96.750038) (xy 54.999946 85.25) (xy 60.069807 85.280882) (xy 59.999946 96.75)
 				)
 			)
 		)
@@ -6144,14 +6228,14 @@
 	)
 	(footprint "Calculator_lib:Solder_pad"
 		(layer "F.Cu")
-		(uuid "ed52ecc2-95c7-40ee-afc6-97761d3ac5cd")
-		(at 48 78 90)
-		(property "Reference" "TP5"
+		(uuid "ef3476be-1d3d-4754-8cd2-958bd2e245b4")
+		(at 35 78 90)
+		(property "Reference" "TP4"
 			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a35822da-8a1b-4fc3-a1ef-cd233949be3d")
+			(uuid "8d5ca00f-5789-4e2e-aa6c-821f30eccff3")
 			(effects
 				(font
 					(size 1 1)
@@ -6160,10 +6244,10 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 -3 90)
+			(at 0 -3.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "fa43e20a-b58a-4516-88e3-9806e46186f7")
+			(uuid "9d78636f-35f7-45b1-9c6f-94639efe0f90")
 			(effects
 				(font
 					(size 1 1)
@@ -6176,7 +6260,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80c0eab4-3566-49c3-81e4-35a204a7b376")
+			(uuid "c184e290-87cf-420b-8e92-3bb117c68351")
 			(effects
 				(font
 					(size 1 1)
@@ -6189,7 +6273,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0de2118-99aa-4726-ad97-429a0eed6e88")
+			(uuid "0fa36808-6421-49c4-96ac-9ec600b38780")
 			(effects
 				(font
 					(size 1 1)
@@ -6198,7 +6282,7 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/c3933d2f-3d53-4f01-8672-b38d45f02f77")
+		(path "/af2e591d-95c5-4731-a480-874bd64c07d4")
 		(sheetname "/")
 		(sheetfile "Calculator.kicad_sch")
 		(units
@@ -6219,11 +6303,23 @@
 			)
 			(fill yes)
 			(layer "F.Cu")
-			(uuid "4934b42f-1f61-43cc-8483-b1af4630de05")
+			(uuid "4ad105b0-3f0a-4336-8ffa-fa71063de85d")
+		)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "f2d11099-e68b-4692-a2ec-39d78efe955a")
 		)
 		(zone
 			(layer "F.SilkS")
-			(uuid "cd465893-4748-4995-8fcc-a9ac5fdbe98c")
+			(uuid "ec32f0db-73f4-403f-8789-ffc5c39e505b")
 			(hatch edge 0.5)
 			(connect_pads
 				(clearance 0)
@@ -6247,7 +6343,7 @@
 			)
 			(polygon
 				(pts
-					(xy 45.50013 83.750038) (xy 45.5 72.25) (xy 50.569861 72.280882) (xy 50.5 83.75)
+					(xy 32.500076 83.750038) (xy 32.499946 72.25) (xy 37.569807 72.280882) (xy 37.499946 83.75)
 				)
 			)
 		)
@@ -6256,13 +6352,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "f04e245d-1243-468d-82c8-1ddee8ec9304")
-		(at 84.5 27 90)
+		(at 84.5 85.5 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW1"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "d3b26cf0-ff45-462b-bf6a-0744b2317198")
+			(uuid "9e3c51dc-52c3-4d22-b99d-416768364e65")
 			(effects
 				(font
 					(size 1 1)
@@ -6273,7 +6369,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "c84f71c1-41f4-4f59-8e67-33155098380f")
+			(uuid "c1e88eba-7357-42c9-83e0-d75d5bddc6ab")
 			(effects
 				(font
 					(size 1 1)
@@ -6286,7 +6382,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b8cff2d-7d68-499c-a166-a946fbd0d67d")
+			(uuid "7b159121-41ce-4290-a87d-5b77ba9ac24e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6395,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7cde42d1-62e3-4a06-aef1-a92a74163a90")
+			(uuid "2c9175c9-1fb6-47b8-b670-7493787ccb58")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +6649,7 @@
 		(property "Reference" "SW7"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "71d13e40-61d4-4a25-a33a-96d7a3649800")
+			(uuid "1d0239ea-0350-4e96-8627-d929eec608a4")
 			(effects
 				(font
 					(size 1 1)
@@ -6564,7 +6660,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "2be21303-1945-4a09-83b2-9369ffc9e015")
+			(uuid "221b2c09-6f9a-4919-b70a-29b1a2d6934c")
 			(effects
 				(font
 					(size 1 1)
@@ -6577,7 +6673,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9535eaa-0c42-4a36-9854-fc6901eb87fe")
+			(uuid "a9dfb753-a31f-4123-a52c-802e1e3ba158")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +6686,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "957ea1a1-3c74-419b-ba24-0831454e1255")
+			(uuid "6a629d5c-d69e-4063-825e-3661c05fded4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,16 +6931,139 @@
 			)
 		)
 	)
+	(footprint "Calculator_lib:Solder_pad"
+		(layer "F.Cu")
+		(uuid "f7bae187-0ade-4f34-b048-336827719f7b")
+		(at 31.5 91 90)
+		(property "Reference" "TP1"
+			(at 0 -0.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ef244d1b-7597-4d3f-9564-f6f579ee6529")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 -3.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a2c9ba8a-b301-4669-b389-f8e85e9d3c3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63fd86e1-9fe1-4934-bd18-400cfa6d9a48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f028d3c-800f-4e75-b067-44470be0bc0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/3cfd5cad-8b11-4f90-b4d7-cb1741dcde90")
+		(sheetname "/")
+		(sheetfile "Calculator.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Cu")
+			(uuid "a4ff0269-6300-4916-9f4b-1fe2c4cbbe23")
+		)
+		(fp_rect
+			(start -5.25 -2)
+			(end 5.25 2)
+			(radius 1)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "33c8a194-bb90-4ce1-ae1c-774cadeca521")
+		)
+		(zone
+			(layer "F.SilkS")
+			(uuid "ac59edb6-0f45-430e-bc07-35ab5f2c55e4")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 29.000076 96.750038) (xy 28.999946 85.25) (xy 34.069807 85.280882) (xy 33.999946 96.75)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "f8e1e8f6-12a5-4316-aaa0-83e0d11f55fd")
-		(at 162.5 27 90)
+		(at 104 27 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW17"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "b5982c9b-b73b-4e6c-877a-f2daa45e15ae")
+			(uuid "bbd7c9e7-ff9a-4365-805f-7797d93d9ca1")
 			(effects
 				(font
 					(size 1 1)
@@ -6855,7 +7074,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "cf76918c-bd11-4526-aa4e-44583edac2b1")
+			(uuid "ce491d4d-2dcd-4e65-9728-c7eb23ff9085")
 			(effects
 				(font
 					(size 1 1)
@@ -6868,7 +7087,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0575875-1e88-40f4-b616-29768f4d1735")
+			(uuid "4782055c-7708-4924-9457-8c6cd2fcdb48")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6881,7 +7100,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3a7975f-948a-4a0a-bb61-6a6ac0c7c2d2")
+			(uuid "bccd2118-7ef2-4396-87ab-40b19fcaf439")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,7 +7354,7 @@
 		(property "Reference" "SW14"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "5f2a8da1-d057-4611-b673-92128357279d")
+			(uuid "c2ff7d1f-7562-478d-9a93-384b66a10334")
 			(effects
 				(font
 					(size 1 1)
@@ -7146,7 +7365,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "ea04015e-6d23-4fa2-abe5-e263facf349a")
+			(uuid "83ba3314-e699-4d96-9d27-b9c3cf27b5c5")
 			(effects
 				(font
 					(size 1 1)
@@ -7159,7 +7378,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46f17c9f-637e-4417-b3f9-c97c42480bf8")
+			(uuid "26831fe6-106f-483f-831e-bc2c61cc1921")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7391,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7b3f6ee-c27b-48ab-9884-8b9a7ab8201a")
+			(uuid "91d7d84c-a9e6-4c73-8b3b-d83c3e8bfdf5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,13 +7639,13 @@
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "fb62d9cc-913d-427d-855e-864233db55f4")
-		(at 84.5 66 90)
+		(at 123.5 85.5 90)
 		(descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "Cherry MX keyswitch 1.00u PCB")
 		(property "Reference" "SW3"
 			(at -2.54 -2.794 90)
 			(layer "F.SilkS")
-			(uuid "a9786d58-fd0b-41a0-acc8-0f9e9dd115b0")
+			(uuid "fbdab1b6-2a53-4024-bfa3-8e41f6925160")
 			(effects
 				(font
 					(size 1 1)
@@ -7437,7 +7656,7 @@
 		(property "Value" "Switch_Tactile_ESwitch"
 			(at -2.54 12.954 90)
 			(layer "F.Fab")
-			(uuid "f073a98c-b10d-4e52-836e-3abc970734f3")
+			(uuid "90008804-a78d-458b-9424-29dc88abec80")
 			(effects
 				(font
 					(size 1 1)
@@ -7450,7 +7669,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e191ea74-4ee8-4170-9941-599bd8670872")
+			(uuid "c1355097-55a6-4217-baba-277aa3d6427a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +7682,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc51edb9-c0a9-44bb-bc21-f8bce49bf2a5")
+			(uuid "f1715a92-c189-4898-8165-e56438fb7bb3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,117 +7927,6 @@
 			)
 		)
 	)
-	(footprint "Calculator_lib:Solder_pad"
-		(layer "F.Cu")
-		(uuid "fe810e16-0ad6-437c-a086-bea967c4dcca")
-		(at 51 91 90)
-		(property "Reference" "TP6"
-			(at 0 -0.5 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "35e7fe55-997a-46ae-877e-93c209b5da64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 -3 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "98bd037f-81b4-4823-b8cf-da043ae07eb9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a54b4869-223b-4707-a2be-1dd0d6993e6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c0e5d0a-082a-4886-b36e-f33df5bbf742")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/37322a2d-8840-46a1-984c-c11b838e3f95")
-		(sheetname "/")
-		(sheetfile "Calculator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -5.25 -2)
-			(end 5.25 2)
-			(radius 1)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Cu")
-			(uuid "9d1cdea4-144e-4541-8a08-530a1c479b50")
-		)
-		(zone
-			(layer "F.SilkS")
-			(uuid "02262b3c-511d-4723-b20e-bcf6c0c967a4")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads not_allowed)
-				(copperpour allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 48.50013 96.750038) (xy 48.5 85.25) (xy 53.569861 85.280882) (xy 53.5 96.75)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(gr_rect
 		(start 26 18)
 		(end 182 99.5)
@@ -7830,38 +7938,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "2d08877e-7ebd-4cce-b6c4-1c8270644f9d")
-	)
-	(via
-		(at 143 21)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "")
-		(uuid "092ce370-cc78-4b46-8b05-d2b9c8d370a3")
-	)
-	(via
-		(at 84.5 21)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "")
-		(uuid "0ac0b73f-5eb5-4a5c-a1d4-9393f9253e04")
-	)
-	(via
-		(at 162.5 21)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "")
-		(uuid "4c5fd725-16ad-47f4-95f4-d885e091266e")
-	)
-	(via
-		(at 104 21)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "")
-		(uuid "5bee9da7-27ba-4627-98ac-c5d8a205489b")
 	)
 	(via
 		(at 79 85.5)
@@ -7895,182 +7971,6 @@
 		(net "")
 		(uuid "c572d2c8-f1dc-4fe5-a3ec-19e68f94a348")
 	)
-	(via
-		(at 123.5 21)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "")
-		(uuid "e9ee3d3e-d36e-4de7-a8af-238a5153d6f3")
-	)
-	(segment
-		(start 57.5 52)
-		(end 58.5 51)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SDI(MOSI)")
-		(uuid "52b981a1-8207-4dc9-8510-2aa14f0923d0")
-	)
-	(segment
-		(start 58.5 51)
-		(end 67.817197 51)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SDI(MOSI)")
-		(uuid "71dc6140-5c9b-4fee-a62c-53c24f582788")
-	)
-	(segment
-		(start 57.5 70)
-		(end 57.5 52)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SDI(MOSI)")
-		(uuid "7becd54d-7507-4d09-baf1-fa34ad9cac5b")
-	)
-	(segment
-		(start 57.5 90.870014)
-		(end 57.5 70)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SDI(MOSI)")
-		(uuid "beb88b1f-c048-4b9d-b7ba-141894a45f81")
-	)
-	(segment
-		(start 67.817197 51)
-		(end 70.372277 48.44492)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SDI(MOSI)")
-		(uuid "f09797c3-9ba4-431a-aae8-90872e800e70")
-	)
-	(via
-		(at 57.5 70)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/SDI(MOSI)")
-		(uuid "89b02434-6d48-4716-87a6-ca286f17cbe7")
-	)
-	(segment
-		(start 54.5 52)
-		(end 57.672277 48.827723)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SDO(MISO)")
-		(uuid "163e93fd-0cc0-4b6a-b4d0-f5fe197ff1f5")
-	)
-	(segment
-		(start 54.5 70)
-		(end 54.5 52)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SDO(MISO)")
-		(uuid "a50305e6-10a8-4e17-ad44-4dde62251370")
-	)
-	(segment
-		(start 57.672277 48.827723)
-		(end 57.672277 48.44492)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SDO(MISO)")
-		(uuid "ef3fd015-4afc-4850-b2ba-a3ad1c10f01a")
-	)
-	(segment
-		(start 54.5 78)
-		(end 54.5 70)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SDO(MISO)")
-		(uuid "f89f3fad-5fbd-4c2c-8d38-72edf6f04b1c")
-	)
-	(via
-		(at 54.5 70)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/SDO(MISO)")
-		(uuid "4c49f823-63cb-4fac-9f59-c89fa88f277a")
-	)
-	(segment
-		(start 51 70)
-		(end 51 52)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SCK")
-		(uuid "026d4a78-d996-4720-a957-ae6fac3d930b")
-	)
-	(segment
-		(start 51 91)
-		(end 51 70)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SCK")
-		(uuid "24a1a957-0a66-43d9-a42d-ef0370e04488")
-	)
-	(segment
-		(start 51 52)
-		(end 54.55508 48.44492)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SCK")
-		(uuid "e5647f11-0d9e-4f72-a9f1-3551a6906896")
-	)
-	(segment
-		(start 54.55508 48.44492)
-		(end 55.132277 48.44492)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/SCK")
-		(uuid "f2852c35-e522-4a0b-b1d6-1a28fd3c4167")
-	)
-	(via
-		(at 51 70)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/SCK")
-		(uuid "71395cbb-08fe-40e4-a9cf-bab4c474f4c9")
-	)
-	(segment
-		(start 44.5 91)
-		(end 44.5 70)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/RESET")
-		(uuid "201a13db-eeb6-429d-9f60-06ea1cc03b43")
-	)
-	(segment
-		(start 44.5 52)
-		(end 47.512277 48.987723)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/RESET")
-		(uuid "41339726-423f-47d3-8343-d3a9e1cb806f")
-	)
-	(segment
-		(start 47.512277 48.987723)
-		(end 47.512277 48.44492)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/RESET")
-		(uuid "7ec7f4a5-68e8-49af-b3d3-e44e2fe08572")
-	)
-	(segment
-		(start 44.5 70)
-		(end 44.5 52)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/RESET")
-		(uuid "8521944c-9843-4308-8fb3-11e323497cca")
-	)
-	(via
-		(at 44.5 70)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/RESET")
-		(uuid "1c71eec0-e1b9-4e6d-bcd6-8a7c9251c4fd")
-	)
 	(segment
 		(start 31.5 70)
 		(end 31.5 52)
@@ -8103,102 +8003,6 @@
 		(net "/VCC")
 		(uuid "bf8c45ed-194a-45a9-a775-933c49c50369")
 	)
-	(via
-		(at 31.5 70)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/VCC")
-		(uuid "676e8254-8642-4507-a1ee-234878e4bfee")
-	)
-	(segment
-		(start 52.592277 48.907723)
-		(end 52.592277 48.44492)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/CS")
-		(uuid "56c2adb8-9153-468d-b66c-9647c6c1e94e")
-	)
-	(segment
-		(start 49 51)
-		(end 50.5 51)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/CS")
-		(uuid "8d5b3670-2633-4a95-ad5e-e4b4751fcc3b")
-	)
-	(segment
-		(start 48 70)
-		(end 48 52)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/CS")
-		(uuid "bd4e6e2d-983a-4f47-9b84-1d9daa687845")
-	)
-	(segment
-		(start 48 78)
-		(end 48 70)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/CS")
-		(uuid "be7d7b63-865c-4309-b8f8-721a996c544f")
-	)
-	(segment
-		(start 50.5 51)
-		(end 52.592277 48.907723)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/CS")
-		(uuid "c5e5d9bc-9f8a-4573-8344-e5844b687c6e")
-	)
-	(segment
-		(start 48 52)
-		(end 49 51)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/CS")
-		(uuid "f3e62a66-dddd-4c4f-b92b-4e449b45fe26")
-	)
-	(via
-		(at 48 70)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/CS")
-		(uuid "294cf34c-a23e-4a32-a601-c63cbb56813f")
-	)
-	(segment
-		(start 41.5 70)
-		(end 41.5 51.917197)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED")
-		(uuid "94f63188-0777-4cdd-a695-0145e7088a82")
-	)
-	(segment
-		(start 41.5 51.917197)
-		(end 44.972277 48.44492)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED")
-		(uuid "de279778-4a51-4033-9561-a7ef548075d4")
-	)
-	(segment
-		(start 41.5 78)
-		(end 41.5 70)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/LED")
-		(uuid "fc19188b-0f7d-4684-a805-53c558120956")
-	)
-	(via
-		(at 41.5 70)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/LED")
-		(uuid "9c449816-6b61-41a3-b000-d27312ab167b")
-	)
 	(segment
 		(start 35 78)
 		(end 35 70)
@@ -8230,14 +8034,6 @@
 		(layer "F.Cu")
 		(net "/GND")
 		(uuid "db69824c-9d81-4914-b5b7-3dc2cbe4966b")
-	)
-	(via
-		(at 35 70)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/GND")
-		(uuid "d932e8b9-73a0-4537-a6f7-7c330543e52e")
 	)
 	(segment
 		(start 39 51)
@@ -8287,13 +8083,213 @@
 		(net "/DC{slash}RS")
 		(uuid "da43d940-3ad8-4cd3-ba56-c8e2ab2576df")
 	)
-	(via
-		(at 38 70)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/DC{slash}RS")
-		(uuid "2cca126f-c7ab-46cf-9c55-da9acf7676e6")
+	(segment
+		(start 41.5 70)
+		(end 41.5 51.917197)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/LED")
+		(uuid "94f63188-0777-4cdd-a695-0145e7088a82")
+	)
+	(segment
+		(start 41.5 51.917197)
+		(end 44.972277 48.44492)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/LED")
+		(uuid "de279778-4a51-4033-9561-a7ef548075d4")
+	)
+	(segment
+		(start 41.5 78)
+		(end 41.5 70)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/LED")
+		(uuid "fc19188b-0f7d-4684-a805-53c558120956")
+	)
+	(segment
+		(start 44.5 91)
+		(end 44.5 70)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/RESET")
+		(uuid "201a13db-eeb6-429d-9f60-06ea1cc03b43")
+	)
+	(segment
+		(start 44.5 52)
+		(end 47.512277 48.987723)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/RESET")
+		(uuid "41339726-423f-47d3-8343-d3a9e1cb806f")
+	)
+	(segment
+		(start 47.512277 48.987723)
+		(end 47.512277 48.44492)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/RESET")
+		(uuid "7ec7f4a5-68e8-49af-b3d3-e44e2fe08572")
+	)
+	(segment
+		(start 44.5 70)
+		(end 44.5 52)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/RESET")
+		(uuid "8521944c-9843-4308-8fb3-11e323497cca")
+	)
+	(segment
+		(start 52.592277 48.907723)
+		(end 52.592277 48.44492)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/CS")
+		(uuid "56c2adb8-9153-468d-b66c-9647c6c1e94e")
+	)
+	(segment
+		(start 49 51)
+		(end 50.5 51)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/CS")
+		(uuid "8d5b3670-2633-4a95-ad5e-e4b4751fcc3b")
+	)
+	(segment
+		(start 48 70)
+		(end 48 52)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/CS")
+		(uuid "bd4e6e2d-983a-4f47-9b84-1d9daa687845")
+	)
+	(segment
+		(start 48 78)
+		(end 48 70)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/CS")
+		(uuid "be7d7b63-865c-4309-b8f8-721a996c544f")
+	)
+	(segment
+		(start 50.5 51)
+		(end 52.592277 48.907723)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/CS")
+		(uuid "c5e5d9bc-9f8a-4573-8344-e5844b687c6e")
+	)
+	(segment
+		(start 48 52)
+		(end 49 51)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/CS")
+		(uuid "f3e62a66-dddd-4c4f-b92b-4e449b45fe26")
+	)
+	(segment
+		(start 51 70)
+		(end 51 52)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SCK")
+		(uuid "026d4a78-d996-4720-a957-ae6fac3d930b")
+	)
+	(segment
+		(start 51 91)
+		(end 51 70)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SCK")
+		(uuid "24a1a957-0a66-43d9-a42d-ef0370e04488")
+	)
+	(segment
+		(start 51 52)
+		(end 54.55508 48.44492)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SCK")
+		(uuid "e5647f11-0d9e-4f72-a9f1-3551a6906896")
+	)
+	(segment
+		(start 54.55508 48.44492)
+		(end 55.132277 48.44492)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SCK")
+		(uuid "f2852c35-e522-4a0b-b1d6-1a28fd3c4167")
+	)
+	(segment
+		(start 54.5 52)
+		(end 57.672277 48.827723)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SDO(MISO)")
+		(uuid "163e93fd-0cc0-4b6a-b4d0-f5fe197ff1f5")
+	)
+	(segment
+		(start 54.5 70)
+		(end 54.5 52)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SDO(MISO)")
+		(uuid "a50305e6-10a8-4e17-ad44-4dde62251370")
+	)
+	(segment
+		(start 57.672277 48.827723)
+		(end 57.672277 48.44492)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SDO(MISO)")
+		(uuid "ef3fd015-4afc-4850-b2ba-a3ad1c10f01a")
+	)
+	(segment
+		(start 54.5 78)
+		(end 54.5 70)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SDO(MISO)")
+		(uuid "f89f3fad-5fbd-4c2c-8d38-72edf6f04b1c")
+	)
+	(segment
+		(start 57.5 52)
+		(end 58.5 51)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SDI(MOSI)")
+		(uuid "52b981a1-8207-4dc9-8510-2aa14f0923d0")
+	)
+	(segment
+		(start 58.5 51)
+		(end 67.817197 51)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SDI(MOSI)")
+		(uuid "71dc6140-5c9b-4fee-a62c-53c24f582788")
+	)
+	(segment
+		(start 57.5 70)
+		(end 57.5 52)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SDI(MOSI)")
+		(uuid "7becd54d-7507-4d09-baf1-fa34ad9cac5b")
+	)
+	(segment
+		(start 57.5 90.870014)
+		(end 57.5 70)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SDI(MOSI)")
+		(uuid "beb88b1f-c048-4b9d-b7ba-141894a45f81")
+	)
+	(segment
+		(start 67.817197 51)
+		(end 70.372277 48.44492)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/SDI(MOSI)")
+		(uuid "f09797c3-9ba4-431a-aae8-90872e800e70")
 	)
 	(embedded_fonts no)
 )

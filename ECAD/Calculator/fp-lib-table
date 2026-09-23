@@ -3,4 +3,5 @@
 	(lib (name "Calculator_lib") (type "KiCad") (uri "${KIPRJMOD}/Calculator_lib.pretty") (options "") (descr ""))
 	(lib (name "Calculator_lib") (type "KiCad") (uri "${KIPRJMOD}/Calculator_lib.pretty") (options "") (descr ""))
 	(lib (name "Calculator_lib") (type "KiCad") (uri "${KIPRJMOD}/Calculator_lib.pretty") (options "") (descr ""))
+	(lib (name "Calculator_lib") (type "KiCad") (uri "${KIPRJMOD}/Calculator_lib.pretty") (options "") (descr ""))
 )

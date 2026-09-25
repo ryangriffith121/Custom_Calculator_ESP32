@@ -2,7 +2,7 @@
 
 A custom calculator project built around an ESP32 microcontroller and a 4-inch ST7796S TFT display. The PCB and schematic have been developed in KiCad, and the next phase is generating Gerber files for manufacturing, followed by enclosure design and firmware development.
 
-## Project Goal
+## 🎯 Project Goal
 
 Create a compact, custom 4-function calculator with:
 
@@ -13,7 +13,7 @@ Create a compact, custom 4-function calculator with:
 
 The design combines a tactile keypad matrix, a high-visibility graphics display, and a lightweight ESP32-based control system.
 
-## Hardware Overview
+## 🧩 Hardware Overview
 
 ### Core controller
 - ESP32 development module / ESP32-WROOM-style board footprint
@@ -35,11 +35,12 @@ The design combines a tactile keypad matrix, a high-visibility graphics display,
 - Test points for power, reset, SPI, and signal debug
 - ESP32 GPIOs mapped for display and keypad interfacing
 
-## Current Status
+## ✅ Current Status
 
 ### Completed
-- PCB design developed in KiCad
+- PCB design completed in KiCad
 - Schematic capture completed in KiCad
+- Gerber files generated and ready for manufacturing
 - Device planning for ESP32 + display + keypad matrix
 - GPIO and pin allocation for the external interfaces
 - Basic project structure in the workspace
@@ -50,13 +51,12 @@ Schematic:
 PCB Layout and Wiring:
 <img width="904" height="508" alt="Screenshot 2026-09-22 232805" src="https://github.com/user-attachments/assets/f15f4423-4501-4914-8c01-c6fc017d079e" />
 
-### In progress
-- Gerber file generation for manufacturing
-- PCB review and manufacturing preparation
+### Remaining work
 - Enclosure design and mechanical fit for the display, buttons, and assembly
-- Firmware development for keypad scanning, display output, and calculator logic
+- Firmware programming for keypad scanning, display output, and calculator logic
+- Final validation and hardware bring-up
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```text
 Custom_Calculator_ESP32/
@@ -74,7 +74,7 @@ Custom_Calculator_ESP32/
 └── .git/
 ```
 
-## Design Notes
+## 📝 Design Notes
 
 This project is intended to be a functional calculator rather than a general-purpose embedded display demo. The hardware is being designed around a straightforward architecture:
 
@@ -83,16 +83,15 @@ This project is intended to be a functional calculator rather than a general-pur
 3. Firmware interprets numeric and operator inputs.
 4. Calculation result is rendered on the ST7796S display.
 
-## Planned Next Steps
+## 🚀 Planned Next Steps
 
-- Generate manufacturing Gerber files from the completed PCB design
-- Review the board for routing, grounding, and placement issues before fabrication
+- Design the enclosure to match the completed PCB and display layout
 - Add silkscreen labeling and mechanical constraints
-- Design the enclosure to match the PCB and display layout
-- Develop firmware for keypad scanning, display rendering, and calculator logic
+- Complete firmware programming for keypad scanning, display rendering, and calculator logic
 - Validate the display graphics and UI flow on the physical hardware
+- Finalize assembly and testing of the completed calculator
 
-## Firmware Direction
+## 💻 Firmware Direction
 
 The firmware can be implemented with:
 

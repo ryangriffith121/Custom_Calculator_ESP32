@@ -49,7 +49,12 @@ Schematic:
 <img width="1214" height="544" alt="Screenshot 2026-09-21 230605" src="https://github.com/user-attachments/assets/2c9fdb86-0f33-4455-9b36-1b5eef0ae5ce" />
 
 PCB Layout and Wiring:
+
 <img width="904" height="508" alt="Screenshot 2026-09-22 232805" src="https://github.com/user-attachments/assets/f15f4423-4501-4914-8c01-c6fc017d079e" />
+
+PCB Rendering:
+
+<img width="1238" height="885" alt="Screenshot 2026-09-24 234848" src="https://github.com/user-attachments/assets/80871f88-93ae-47a8-9287-3e6f8149e669" />
 
 ### Remaining work
 - Enclosure design and mechanical fit for the display, buttons, and assembly

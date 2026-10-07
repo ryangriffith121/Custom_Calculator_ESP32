@@ -1,9 +1,12 @@
+#include <TFT_eSPI.h>
+TFT_eSPI tft;
+
 void setup() {
-  // put your setup code here, to run once:
-
+  tft.init();
+  tft.setRotation(1);
+  tft.fillScreen(TFT_RED);
+  tft.setTextColor(TFT_WHITE, TFT_RED);
+  tft.drawString("Hello", 20, 20, 4);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
+void loop() {}

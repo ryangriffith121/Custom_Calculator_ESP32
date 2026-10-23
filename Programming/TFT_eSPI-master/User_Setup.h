@@ -17,7 +17,8 @@
 #define TFT_RST  16
 #define TFT_BL    4
 
-#define SPI_FREQUENCY 10000000
+#define SPI_FREQUENCY       80000000
+#define SPI_READ_FREQUENCY  80000000
 #define TFT_BACKLIGHT_ON HIGH
 
 //#ifndef ST7796_DRIVER

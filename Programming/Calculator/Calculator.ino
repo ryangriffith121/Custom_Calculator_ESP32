@@ -1,4 +1,5 @@
 #include <TFT_eSPI.h>
+#include <math.h>   
 TFT_eSPI tft;
 
 const uint8_t ROW_PINS[] = {26, 25, 33, 32, 21};
@@ -13,15 +14,7 @@ unsigned long lastChange[NUM_ROWS][NUM_COLS];
 
 void setup() {
  tft.init();
- tft.setRotation(1);
- tft.fillScreen(TFT_BLACK);
- tft.setTextColor(TFT_WHITE, TFT_BLUE);
- tft.drawString("Hello World", 20, 20, 4);
-
- tft.fillRect(10, 60, 100, 40, TFT_BLUE);           // x, y, width, height
- tft.drawRoundRect(130, 60, 100, 40, 8, TFT_GREEN); // outline, corner radius 8
- tft.fillCircle(300, 80, 20, TFT_RED);              // center x, y, radius
- tft.drawLine(0, 120, 479, 120, TFT_YELLOW);   
+ tft.setRotation(3);  
 
  Serial.begin(115200);
  for (uint8_t c = 0; c < NUM_COLS; c++) pinMode(COL_PINS[c], INPUT_PULLUP);
@@ -30,6 +23,16 @@ void setup() {
 }
 
 void loop() {
+ tft.startWrite();
+ //tft.fillScreen(TFT_BLACK);
+ tft.setTextColor(TFT_WHITE, TFT_BLUE);
+ tft.drawString("Hello World", 20, 20, 4);
+
+ tft.fillRect(10, 60, 100, 40, TFT_BLUE);           // x, y, width, height
+ tft.drawRoundRect(130, 60, 100, 40, 8, TFT_GREEN); // outline, corner radius 8
+ tft.fillCircle(300 + sin(millis()/2000)*100, 80, 20, TFT_RED);              // center x, y, radius
+ tft.drawLine(0, 120, 479, 120, TFT_YELLOW); 
+ tft.endWrite();
  for (uint8_t r = 0; r < NUM_ROWS; r++) {
    pinMode(ROW_PINS[r], OUTPUT);
    digitalWrite(ROW_PINS[r], LOW);
@@ -40,6 +43,9 @@ void loop() {
        state[r][c] = pressed;
        lastChange[r][c] = millis();
        Serial.printf("Row %u, Col %u %s\n", r, c, pressed ? "pressed" : "released");
+       tft.setTextColor(TFT_GREEN, TFT_PURPLE);
+       tft.fillScreen(TFT_BLACK);
+       tft.drawString("Button Pressed", 200, 20, 4);
      }
    }
    pinMode(ROW_PINS[r], INPUT);
